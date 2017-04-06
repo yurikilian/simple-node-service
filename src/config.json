@@ -1,0 +1,18 @@
+{
+    "application": {
+        "port": 8500,
+        "endpoint": "/",
+        "method": "POST"
+    },
+    "bodyParser": {
+        "limit": "10mb"
+    },
+    "cors": {
+        "allowedHeaders": "Content-Type",
+        "methods": "POST",
+        "origin": [
+            "http://dsvteste01.localhost:3000"
+        ],
+        "credentials": true
+    }
+}
